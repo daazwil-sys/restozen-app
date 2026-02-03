@@ -170,7 +170,7 @@ export default function OrderFormPage() {
               <SelectTrigger className="w-full">
                 <SelectValue placeholder="Sélectionnez votre quartier" />
               </SelectTrigger>
-              <SelectContent>
+              <SelectContent className="max-h-[60vh] overflow-y-auto">
                 {quartiers.map((quartier) => (
                   <SelectItem key={quartier} value={quartier}>
                     {quartier}
