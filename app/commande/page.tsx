@@ -37,6 +37,7 @@ export default function OrderFormPage() {
     "Almadies",
     "Ngor",
     "Yoff",
+    "Castor",
     "Parcelles Assainies",
     "Grand Yoff",
     "HLM",
